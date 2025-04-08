@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calories Count</title>
+    <link rel="stylesheet" href="front-end/caloriecount.css">
+</head>
+<body>
+    <div class="logo1">
+    <div class="logo">
+        <p>ABOUT DAILY CALORIES</p>
+    </div>
+    </div>
+    <div class="front">
+    <h1 class="heading">Daily Calorie Intake Calculator</h1>
+    <p class="subheading">"Enter your details below to discover your personalized daily calorie needs. Our calculator will provide you with a tailored estimate of the calories your body requires to function optimally, based on your unique lifestyle and routine."</p>
+    </div>
+    <form id="calorie-form">
+        <div class="form">
+            <div class="row">
+        <div class="options">
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        </div>
+        <div class="options">
+            <label for="sex">Sex:</label>
+        <select id="sex" name="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+        </select>
+        </div>
+        </div>
+        <div class="row">
+        <div class="options">
+        <label for="weight">Weight (kg):</label>
+        <input type="number" id="weight" name="weight">
+        </div>
+        <div class="options">
+        <label for="height">Height (cm):</label>
+        <input type="number" id="height" name="height">
+        </div>
+        </div>
+        <div class="row">
+        <div class="options">
+            <label for="activity-level">Activity Level:</label>
+        <select id="activity-level" name="activity-level">
+            <option value="sedentary">Sedentary</option>
+            <option value="lightly-active">Lightly Active</option>
+            <option value="moderately-active">Moderately Active</option>
+            <option value="very-active">Very Active</option>
+            <option value="extra-active">Extra Active</option>
+        </select>
+        </div>
+        </div>
+        <button id="calculate-btn">Calculate</button>
+    </div>
+    </form><br>
+    <span id="result"></span>
+
+    <div class="allpara">
+    <p class="para">Calories are units of energy that measure the amount of energy that foods or beverages provide to the body. Calories are necessary for the body to function properly, and they are used to fuel physical activity, growth, and maintenance of bodily functions. In essence, calories are the fuel that powers the human body, enabling it to perform various physiological functions, such as breathing, heartbeat, digestion, and physical movement.</p>
+    <p class="para">By using this calculator for your caloric needs, this equation factors in your gender, age, height, current weight, and exercise levels. The resulting number will then be your daily calorie intake recommended for your lifestyle, where you can then adjust this to lose weight, gain weight, or maintain things where they are weight-wise. For a mathematical visual, the formula is the following for women, where the BMI is calculated as 655.1 + (9.563 x weight in kg) + (1.850 x height in cm) - (4.676 x age in years), and for men, BMR = 66.47 + (13.75 x weight in kg) + (5.003 x height in cm) - (6.755 x age in years). This is then multiplied by your activity level, with Sedentary as BMR x 1.2, Lightly active as BMR x 1.375, Moderately active as BMR x 1.55, Active as BMR x 1.725, and finally very active is calculated by the BMR x 1.9.</p>
+    <p class="para">As you can see from these calculations, the intensity of exercise levels that play into this also has its spectrum. The lightest active level exercise levels would be categorized as mostly sitting the majority of the day such as office work. The next level as someone who is moderately active would be someone who is mostly standing during the day such as working as a teacher or cashier as their profession. Active individuals would be categorized as mostly walking during the day such as a sales representative or server, and a very active level would look like a physically active day such as a builder.</p>
+    </div>
+
+    <script src="back-end/caloriecount.js"></script>
+</body>
+</html>

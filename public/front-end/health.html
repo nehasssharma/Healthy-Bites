@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Healthy Bites - Food Explorer</title>
+    <link rel="stylesheet" href="front-end/health.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <!--<div class="logo">Healthy Bites - Food Explorer</div>-->
+            <div class="logo">
+              <p class="logo-1">Healthy Bites</p>
+              <p class="logo-2">Food Explorer</p>
+          </div>
+            <ul>
+                <li class="options"><a href="health">Home</a></li>
+                <li class="options" onclick= "document.getElementById('features-section').scrollIntoView({ behavior: 'smooth' })">Features</li>
+                <li class="options" onclick= "document.getElementById('benefits-section').scrollIntoView({ behavior: 'smooth' })">Benefits</li>
+                <li class="options" onclick="document.getElementById('footer-section social-links').scrollIntoView({ behavior: 'smooth' })">Contact</a></li>
+            </ul>
+          </div>
+    </header>
+    
+      <!-- Hero Section 
+      <section class="hero-section">
+        <video width="100%" height="100vh" autoplay muted loop>
+          <source src="Video.mp4" type="video/mp4">
+          Browser not supported.
+        </video>
+        <div class="hero-content">
+          <p class="welcome">Welcome To </p>
+          <h1 class="web-name">Healthy Bites</h1>
+          <h1 class="heading">Fuel your body with the right nutrition - every bite is an investment in your health, energy, and future!</h1>
+          <p class="subheading">Know What You Eat !  Search & Eat Smart</p>
+          <a href="/Search"><button class="btn" title="Search">Check Your Meal’s Nutrition</button></a>
+        </div>
+      </section>-->
+
+      <!-- hero Section -->
+       <section class="hero-section">
+        <video width="100%" height="100vh" autoplay muted loop>
+          <source src="images/Video.mp4" type="video/mp4">
+          Browser not supported.
+        </video>
+        <div class="hero-content1">
+            <p class="welcome">Welcome To </p>
+            <h1 class="web-name">Healthy Bites</h1>
+            <h1 class="heading">Fuel your body with the right nutrition - every bite is an investment in your health, energy, and future!</h1>
+        </div>
+        <div class="hero-content2">
+          <div>
+            <img src="images/svg1.svg" alt="nutrition">
+            <img src="images/svg2.svg" alt="nutrition">
+            <img src="images/svg3.svg" alt="nutrition">
+          </div>
+            <p class="subheading">Know What You Eat !  Search & Eat Smart</p>
+            <a href="/Search"><button class="btn" title="Search">Check Your Meal’s Nutrition</button></a>
+        </div>
+      </section>
+    
+      <!-- Features Section -->
+      <section class="features-section" id="features-section">
+        <div class="container">
+          <h2 class="section-title">Get comprehensive nutrition insights</h2>
+          <div class="features-grid">
+            <a href="caloriecount"><div class="feature-card" title="click me">
+            <h3 class="feature-title">Calorie Count</h3>
+              <p class="feature-description">Accurate calorie information for <br> better meal planning.</p>
+            </div></a>
+            <a href="macronutrient"><div class="feature-card" title="click me">
+              <h3 class="feature-title">Macronutrient Breakdown</h3>
+              <p class="feature-description">Detailed protein, carbs, and fat <br> content for each food item.</p>
+            </div></a>
+            <a href="HealthBenefits"><div class="feature-card" title="click me">
+              <h3 class="feature-title">Health Benefits</h3>
+              <p class="feature-description">Understand the impact of foods <br> on your overall health.</p>
+            </div></a>
+          </div>
+        </div>
+      </section>
+    
+    <!-- Benefits Section -->
+    <section class="benefits-section" id="benefits-section">
+      <div class="container">
+        <h2 class="section-title">Eat Smart, Live Healthy</h2>
+        <p class="section-subtitle">Make informed choices with Nutrition Insights</p>
+        <div class="benefits-grid">
+          <a href="MealPlanning"><div class="benefit-card" title="click me">
+            <h3 class="benefit-title">Healthy Meal Planning</h3>
+          </div></a>
+          <a href="WeightManagement"><div class="benefit-card" title="click me">
+            <h3 class="benefit-title">Weight Management</h3>
+          </div></a>
+        </div>
+      </div>
+    </section>
+  
+  <!-- why healhty bites Section -->
+      <section>
+        <div class="detail">
+          <div class="info">
+            <p class="whyhealthybites">Why Healthy Bites ?</p>
+           </div>
+           <div class="details">
+            <div class="alldetail">
+              <i class="fa-solid fa-bolt"></i>
+            <h3 class="detail-title">Wide range of Nutritional information</h3>
+              <p class="detail-description">for helath decisions.</p>
+            </div>
+            <div class="alldetail">
+              <i class="fa-solid fa-heart-pulse"></i>
+              <h3 class="detail-title">Guide to Fit and Healthy Lifestyle</h3>
+              <p class="detail-description">Your true partner in the health and wellness journey.</p>
+            </div>
+            <div class="alldetail">
+              <i class="fa-brands fa-web-awesome"></i>
+             <h3 class="detail-title">100% Motivated</h3>
+              <p class="detail-description">A balanced diet that includes protein, complex carbohydrates, and healthy fats.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <!-- Footer Section -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <!-- About Us Section -->
+          <div class="footer-section about-us">
+            <h3>About Us</h3>
+            <p>Healthy Bites is your trusted guide to making healthier food choices. 
+              Our mission is to empower you with nutritional knowledge and tools for a better lifestyle.</p>
+          </div>
+          <!-- Contact Us Section -->
+          <div class="footer-section contact-us">
+            <h3>Contact Us</h3>
+            <ul>
+              <li>Email: <a href="">HealthyBites@gmail.com</a></li>
+              <li>Phone: <a href="">+91 9008007006</a></li>
+              <li>Location: Bareilly, Uttar Pradesh 243005</li>
+            </ul>
+          </div>
+          <!-- Social Media Links -->
+          <div class="footer-section social-links" id="footer-section social-links">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+              <a href="" target="_blank" class="social-icon facebook">Facebook</a>
+              <a href="" target="_blank" class="social-icon twitter">Twitter</a>
+              <a href="" target="_blank" class="social-icon instagram">Instagram</a>
+              <a href="" target="_blank" class="social-icon linkedin">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+        <p class="footer-note">&copy; 2025 Healthy Bites - Food Explorer. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>

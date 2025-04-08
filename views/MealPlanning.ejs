@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthy Meal Planning</title>
+    <link rel="stylesheet" href="/front-end/MealPlanning.css">
+</head>
+<body>
+    <div class="logo1">
+        <div class="logo">
+            <p>ABOUT HEALTHY MEAL PLANNING</p>
+        </div>
+    </div>
+    <div class="container">
+        <h1>Meal Planner</h1>
+        <form action="/generate" method="POST">
+            <label>Enter Your Daily Calorie Requirement:</label>
+            <input type="number" name="calories" required>
+            <button type="submit" name="type" value="veg">Generate Pure Veg Meal Plan</button>
+            <button type="submit" name="type" value="non-veg">Generate Veg + Non-Veg Meal Plan</button>
+        </form>
+    </div>
+    <div class="info">
+        <div class="info-box">
+            <h1 class="heading">What is Healthy Meal Planning ?</h1><br>
+            <p class="subheading">Health meal planning involves creating a personalized plan for healthy eating, taking into account individual nutritional needs, dietary restrictions, and lifestyle. Here's a comprehensive guide to health meal planning:</p><br><br>
+            <h2>Benefits of Healthy Meal Planning</h2>
+            <ul class="subheading">
+                <li><b>Weight Management :- </b>Healthy meal planning helps maintain a healthy weight by controlling calorie intake and ensuring nutrient balance.</li>
+                <li><b>Improved Nutrition :- </b>Meal planning ensures that you consume a variety of nutrient-dense foods, reducing the risk of nutrient deficiencies.</li>
+                <li><b>Increased Energy :- </b>Eating a balanced diet provides energy for daily activities and exercise.</li>
+                <li><b>Better Digestion :- </b>A well-planned meal schedule helps regulate digestion, reducing symptoms of bloating, constipation, and diarrhea.</li>
+                <li><b>Reduced Food Waste :- </b>Meal planning helps reduce food waste by ensuring that you use up all the ingredients you buy.</li>
+                <li><b>Saves Time and Money :- </b>Meal planning saves time by reducing the need for last-minute takeouts or dining out. It also helps save money by reducing food waste and avoiding impulse buys.</li>
+            </ul><br><br>
+            <h2>Healthy Meal Planning Ideas</h2>
+            <ul class="subheading">
+                <li><b>Breakfast Ideas :- </b>Overnight oats, avocado toast, Greek yogurt parfaits.</li>
+                <li><b>Lunch Ideas :- </b>2. Grilled chicken salads, whole grain wraps, lentil soups.</li>
+                <li><b>Dinner Ideas :- </b> Grilled salmon, roasted vegetables, quinoa bowls.</li>
+                <li><b>Snack Ideas :- </b>Fresh fruits, nuts, carrot sticks with hummus.</li>
+            </ul><br><br>
+            <h2>Steps to Healthy Meal Planning</h2>
+            <ul class="subheading">
+                <li><b>Determine Your Caloric Needs :- </b>Calculate your daily caloric requirements based on age, sex, weight, height, and activity level.</li>
+                <li><b>Set Dietary Goals :- </b>Identify specific dietary objectives, such as reducing sugar intake or increasing protein consumption.</li>
+                <li><b>Choose Healthy Foods :- </b>Focus on whole, unprocessed foods like vegetables, fruits, whole grains, lean proteins, and healthy fats.</li>
+                <li><b>Plan Meals and Snacks :- </b>Create a weekly meal plan, including breakfast, lunch, dinner, and snacks.</li>
+                <li><b>Consider Dietary Restrictions :- </b>Accommodate food allergies, intolerances, or preferences, such as vegetarian, vegan, gluten-free, or dairy-free.</li>
+                <li><b>Cook and Prepare Meals :- </b>Cook and Prepare Meals: Use healthy cooking methods, such as grilling, roasting, or steaming, and prep meals in advance to save time.</li>
+                <li><b>Make a Grocery List :- </b>Compile a list of necessary ingredients and shop for healthy foods.</li>
+            </ul><br><br>
+            <h2>Tips for Healthy Meal Planning</h2>
+            <ul class="subheading">
+                <li><b>Eat a Variety of Foods :- </b>Include a variety of foods in your meal plan to ensure you get all the necessary nutrients.</li>
+                <li><b>Incorporate Plant-Based Meals :- </b>Plant-based meals are rich in fiber, vitamins, and minerals. Aim for at least 3-4 plant-based meals per week.</li>
+                <li><b>Choose Whole Grains :- </b>Whole grains provide fiber, vitamins, and minerals. Choose whole grains like brown rice, quinoa, and whole-wheat bread.</li>
+                <li><b>Incorporate Healthy Fats :- </b>Healthy fats like avocado, nuts, and seeds provide essential fatty acids and support heart health.</li>
+                <li><b>Limit Processed and Packaged Foods :- </b>Processed and packaged foods are high in unhealthy ingredients like added sugars, salt, and unhealthy fats. Limit your consumption of these foods.</li>
+            </ul><br><br>
+            <h2>Meal Planning for Different Diets</h2>
+              <ul class="subheading">
+                <li><b>Vegetarian Meal Planning :- </b>Include plant-based protein sources like beans, lentils, and tofu in your meal plan.</li>
+                <li><b>Vegan Meal Planning :- </b>Include plant-based protein sources like beans, lentils, and tofu, and avoid animal-derived ingredients like honey and gelatin.</li>
+                <li><b>Gluten-Free Meal Planning :- </b>Include gluten-free grains like rice, quinoa, and corn, and avoid gluten-containing grains like wheat, barley, and rye.</li>
+                <li><b>Low-Carb Meal Planning :- </b>Include protein-rich foods like meat, poultry, and fish, and limit carbohydrate-rich foods like bread, pasta, and sugary snacks.</li>
+                <li><b>Keto Meal Planning :- </b>Include high-fat foods like avocado, nuts, and seeds, and limit carbohydrate-rich foods like bread, pasta, and sugary snacks.</li>
+            </ul><br><br>
+            <h2>Healthy Meal Planning Resources</h2>
+            <ul class="subheading">
+                <li><b>Meal Planning Apps :- </b>Apps like Mealime, Yummly, and Plan to Eat help you plan and organize your meals.</li>
+                <li><b>Recipe Websites :- </b>Websites like Allrecipes, Epicurious, and (link unavailable) provide a vast collection of healthy recipes.</li>
+                <li><b>Cookbooks :- </b>Cookbooks like "The Plant Paradox" by Dr. Steven Gundry and "The Blue Zones Kitchen" by Dan Buettner provide healthy recipe ideas and meal planning tips.</li>
+                <li><b>Registered Dietitians :- </b>Consult with a registered dietitian to create a personalized meal plan that meets your nutritional needs and health goals.</li>
+            </ul><br><br>
+            <h2>Common Meal Planning Mistakes</h2>   
+            <ul class="subheading">
+                <li><b>Not Planning Ahead :- </b>Failing to plan meals ahead of time can lead to last-minute takeouts or dining out.</li>
+                <li><b>Not Considering Dietary Restrictions :- </b>Failing to consider dietary restrictions, such as food allergies or intolerances, can lead to unhealthy food choices.</li>
+                <li><b>Not Including a Variety of Foods :- </b>Failing to include a variety of foods in your meal plan can lead to nutrient deficiencies.</li>
+                <li><b>Not Cooking at Home :- </b>Failing to cook at home can lead to consuming high-calorie, high-fat foods.</li>
+                <li><b>Not Staying Hydrated :- </b>Failing to stay hydrated can lead to fatigue, headaches, and decreased productivity.</li>
+            </ul><br><br>
+            <h2> Consulting a Healthcare Professional</h2>
+            <p class="subheading">Before starting a new meal plan, consult with a registered dietitian, nutritionist, or healthcare provider, especially if you have specific dietary needs or health concerns. They can help you create a personalized meal plan tailored to your unique requirements.</p>
+        </div>
+    </div>
+</body>
+</html>

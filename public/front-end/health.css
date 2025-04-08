@@ -1,0 +1,946 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.4;
+  color: #333;
+}
+body:hover{
+  cursor: context-menu;
+}
+
+/*nav*/
+header{
+   background-color: white;
+   width: 100%;
+   position: fixed;
+   z-index: 10;
+   height: fit-content;
+   padding: 1.5vh 0;
+}
+ 
+.nav{ 
+   display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+ 
+.nav ul li a{
+   color: black;
+}
+ 
+.nav ul li a:hover{
+   color: #27ae60;
+}
+ 
+.options{
+   color: black;
+   font-size: 4vh;
+}
+ 
+.options:hover{
+   color: #27ae60;
+   cursor: pointer;
+   transform: scale(1.3);
+   cursor: pointer;
+}
+ 
+/*.logo {
+   margin-left: 5vh;
+   font-family: cursive;
+   font-size: 5vh;
+   font-weight: bold;
+   color:#28a745;
+   transition-duration: 5s;
+}
+.logo:hover{
+   color: blue;
+}*/
+
+.logo{
+  margin-left: 5vh;
+}
+.logo-1{
+  color: #28a745;
+  font-size: 6vh;
+  font-weight: bolder;
+  margin: 0;
+  transition-duration: 3s;
+}
+.logo-2{
+  color: #28a745;
+  font-size: 3vh;
+  font-weight: bold;
+  margin: 0;
+  transition-duration: 3s;
+}
+.logo-1:hover,.logo-2:hover{
+  color: blue;
+}
+ 
+.nav ul {
+   display: flex;
+   list-style: none;
+   margin-right: 1vh;
+}
+ 
+.nav ul li {
+     margin-right: 5vh;
+}
+ 
+.welcome{
+   font-size: 4vh;
+   margin: 0;
+}
+ 
+.web-name{
+   font-size: 6vh;
+   color: rgb(137, 195, 218);
+}
+
+.container { 
+   width: 100%;
+   margin: 0 auto;
+}
+   
+h1 {
+   margin: 0;
+ 
+}
+ 
+h2 {
+   margin: 0;
+}
+ 
+h3 {
+   margin: 0;
+}
+   
+button {
+   cursor: pointer;
+}
+
+/* Hero Section */  
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.404);
+  text-align: center;
+  aspect-ratio: 18/10.1;
+  gap: 10vh;
+}
+
+video{
+ height: auto;
+ width: 100%;
+ border: none;
+ outline: none;
+ z-index: -1;
+ position: absolute;
+}
+   
+.hero-content1 {
+  margin-top: 10vh;
+  width: 45%;
+  z-index: 1;
+  text-align: left;
+}
+
+.hero-content2 {
+  height: 60vh;
+  border-radius: 5vh;
+  background-color: rgba(255, 255, 255, 0.411);
+  margin-top: 10vh;
+  width: 40%;
+  z-index: 1;
+  border: 3px solid rgba(255, 255, 255, 0.63);
+}
+
+.hero-content2 div{
+  display: flex;
+  justify-content: center;
+  gap: 8vh;
+}
+
+.hero-content2 img{
+  margin-top: 8vh;
+  width: 17vh;
+}
+
+.hero-content2 img:hover{
+  transform: scale(1.1);
+}
+ 
+.heading{
+   font-size: 7.5vh;
+   font-weight: bold;
+}
+ 
+.subheading{
+  margin-top: 6vh;
+   font-size: 3vh;
+}
+ 
+.btn {
+  margin-top: 4vh;
+   background: blue;
+   color: white;
+   border: none;
+   border-radius: 5vh;
+   padding: 2vh 2.2vh;
+   font-size: 2.8vh;
+   transition: background 0.3s;
+}
+ 
+.btn:hover {
+   background: rgba(137, 195, 218, 0.623);
+   transform: scale(1.1);
+   border: 3px solid white;
+   font-weight: bolder;
+}
+   
+/* Section Titles */
+.section-title {
+   font-weight: bolder;
+   font-size: 4vh;
+   text-align: center;
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+}
+ 
+.section-subtitle{
+   margin-bottom: 3vh;
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+}
+ 
+.container{
+   width: 90%;
+   text-align: center;
+   margin-top: 15vh;
+}
+   
+/* Features Section */
+.features-section {
+   padding: 4vh 0;
+   height: 40vh;
+}
+ 
+.features-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 5vh;
+}
+   
+.feature-card {
+   margin-top: 7vh;
+   color: #222;
+   text-align: center;
+   background-image: radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(95,232,22, 0.12) 15%, rgba(95,232,22, 0.12) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(74,217,26, 0.09) 75%, rgba(74,217,26, 0.09) 89%,rgba(134,197,86, 0.15) 89%, rgba(134,197,86, 0.15) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px;
+   padding: 4vh;
+   border-radius: 1.5vh;
+   box-shadow: 0 0.5vh 0.8vh rgba(7, 0, 0, 0.438);
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+} 
+ 
+@keyframes appear{
+   from{
+     opacity: 0;
+     scale: 0.5;
+   }
+   to{
+     opacity: 1;
+     scale: 1;
+   }
+}
+ 
+a{
+   text-decoration: none;
+}
+ 
+.feature-card:hover {
+   cursor: pointer;
+   border: 4px solid rgb(20, 167, 20);
+   box-shadow: 0 0.8vh 1.2vh rgba(7, 0, 0, 0.438);
+   transform: scale(1.05);
+}
+ 
+.feature-title{
+   font-size: 3vh;
+}
+ 
+.feature-description{
+   font-size: 2.3vh;
+}
+
+/* Benefits Section */
+.benefits-section {
+  margin-top: 4vh;
+   height: 40vh;
+   padding: 12vh 0;
+   background: #f9f9f9;
+   text-align: center;
+}
+   
+.benefits-grid {
+   display: flex;
+   justify-content: center;
+   gap: 6vh;
+}
+   
+.benefit-card {
+   margin-top: 4vh;
+   width: 50vh;
+   padding: 4vh;
+   background: #fff;
+   box-shadow: 0 0.3vh 0.6vh rgba(7, 0, 0, 0.438);
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+}
+   
+.benefit-title {
+   font-size: 3vh;
+   color: blue;
+}
+ 
+.benefit-card:hover{
+   cursor: pointer;
+   border: 3px solid blue;
+   box-shadow: 0 0.8vh 1.2vh rgba(7, 0, 0, 0.438);
+   transform: scale(1.08);
+}
+ 
+/*Why Healthy Bites*/
+.whyhealthybites{
+  margin-top: 15vh;
+   font-size: 4vh;
+   font-weight: bolder;
+   text-align: center;
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+}
+ 
+.detail{
+   height: 45vh;
+   padding-top: 2vh;
+}
+ 
+.info{
+   text-align: center;
+}
+ 
+.details{
+   margin-left: 5vh;
+   display: flex;
+   justify-content: space-between;
+   width: 96%;
+}
+ 
+.alldetail{
+   font-weight: bold;
+   padding: 3.5vh;
+   width: 60vh;
+   box-shadow: 0 0.6vh 1vh rgba(7, 0, 0, 0.438);
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 40%;
+   background: rgb(232, 250, 232);
+}
+ 
+.alldetail .detail-title, .detail-description{
+   margin-left: 9vh;
+}
+ 
+.details i{
+   position: relative;
+   top: 4vh;
+   left: 2vh;
+   font-size: 3.7vh;
+   color: #218838;
+}
+ 
+.detail-description{
+   font-weight: 500;
+}
+ 
+/*footer section*/
+.footer {
+   background-color: #1b2d3d;
+   padding: 2vh;
+   text-align: center;
+   margin-top: 15vh;
+}
+ 
+.footer-content {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   gap: 2vh;
+}
+ 
+.footer-section {
+   flex: 1;
+   min-width: 250px;
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 20%;
+}
+ 
+.footer-section h3 {
+   font-size: 3vh;
+   color: #2ecc71;
+   margin-bottom: 2vh;
+}
+ 
+.footer-section p,
+.footer-section ul {
+   font-size: 2.5vh;
+   line-height: 1.6;
+   color: rgb(226, 224, 224);
+}
+ 
+.footer-section ul {
+   list-style: none;
+   padding: 0;
+}
+ 
+.footer-section ul li {
+   margin-bottom: 1vh;
+}
+ 
+.footer-section ul li a {
+   color: #3da754;
+   text-decoration: none;
+   transition: color 0.3s ease;
+}
+ 
+.footer-section ul li a:hover {
+   color: #2ecc71;
+}
+ 
+/* Social Media Links */
+.social-icons {
+   display: flex;
+   gap: 1.5vh;
+   justify-content: center;
+}
+ 
+.social-icon {
+   color: #ffffff;
+   padding: 1vh 1.5vh;
+   border: 1px solid #27ae60;
+   border-radius: 5px;
+   text-decoration: none;
+   transition: background 0.3s ease, transform 0.3s ease;
+}
+ 
+.social-icon:hover {
+   background-color: #27ae60;
+   transform: scale(1.15);
+   color: #ffffff;
+}
+ 
+/* Footer Note */
+.footer-note {
+   font-size: 2.5vh;
+   margin-top: 4vh;
+   border-top: 1px solid #34495e;
+   padding-top: 4vh;
+   padding-bottom: 4vh;
+   color: white;
+   animation: appear linear;
+   animation-timeline: view();
+   animation-range: entry 0% cover 10%;
+} 
+ 
+/*Media Queries*/
+@media(min-width: 320px) and (max-width:768px){
+   header{
+       padding: 0.1vh;
+   }
+     .logo{
+      margin-left: 1vh;
+     }
+    .logo-1{
+      font-size: 2vh;
+    }
+    .logo-2{
+      font-size: 1vh;
+    }
+     .nav ul li {
+       margin-right: 1vh;
+       font-size: 2vh;
+     }
+   .section-title{
+     font-size: 1.7vh;
+   }
+   .feature-card {
+       height: fit-content;
+       padding: 2vh;
+       font-size: 1.3vh;
+     }
+     .features-grid{
+       gap: 1vh;
+     }
+     .feature-title{
+         font-size: 1.3vh;
+     }
+     .feature-description{
+         font-size: 1vh;
+     }
+   .benefits-section{
+     margin-top: 10vh;
+   }
+   .benefit-title {
+     font-size: 1vh;
+   }
+   .benefits-grid {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .benefit-card{
+     width: 80%;
+     height: 0.8vh;
+   }
+   .benefit-title{
+       font-size: 1.3vh;
+   }
+   .whyhealthybites{
+     font-size: 2vh;
+     font-weight: bolder;
+     text-align: center;
+   }
+   .detail{
+     height: fit-content;
+     padding-top: 2vh;
+     margin-top: 4vh;
+   }
+   .info{
+     text-align: center;
+   }
+   .details{
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+   }
+   .alldetail{
+     font-weight: bold;
+     width: 80%;
+     height: 20vh;
+     box-shadow: 0 0.6vh 1vh rgba(7, 0, 0, 0.438);
+   }
+   .alldetail .detail-title, .detail-description{
+     margin-left: 5vh;
+   }
+   i{
+     position: relative;
+     top: 3vh;
+     font-size: 2vh;
+     color: #218838;
+   }
+   span{
+     font-size: 1vh;
+   }
+   .social-icons {
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   .social-icon{
+     width: 10vh;
+   }
+}
+
+@media(min-width:320px) and (max-width:450px){
+  .welcome{
+       font-size: 2vh;
+     }
+     .web-name{
+       font-size: 2.5vh;
+     }
+     video{
+      display: none;
+     }
+     .hero-section{
+      background-color: rgba(0, 0, 255, 0.555);
+      aspect-ratio: 0;
+      height: 75vh;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+     }
+   .heading{
+     font-size: 3vh;
+   }
+   .subheading{
+    padding: 1vh;
+    margin-top: 3vh;
+     font-size: 2vh;
+   }
+   .btn {
+    margin-top: 1.5vh;
+     padding: 0.8vh 1vh;
+     font-size: 2vh;
+   }
+   .hero-content1{
+    width: 90%;
+   }
+   .hero-content2{
+    margin-top: 3vh;
+    width: 80%;
+    height: 30vh;
+   }
+   .hero-content2 div{
+    gap: 2vh;
+   }
+   .hero-content2 img{
+    margin-top: 2vh;
+    width: 5vh;
+   }
+}
+ 
+@media(min-width:451px) and (max-width:700px){
+   header{
+       padding: 0.1vh;
+     }
+     .logo{
+      margin-left: 1vh;
+     }
+    .logo-1{
+      font-size: 3vh;
+    }
+    .logo-2{
+      font-size: 2vh;
+    }
+     .nav ul li {
+       margin-right: 1vh;
+       font-size: 2.2vh;
+     }
+     .options{
+      font-size: 3vh;
+   }
+     .welcome{
+       font-size: 0.8vh;
+     }
+     .web-name{
+       font-size: 1vh;
+     }
+   .heading{
+     font-size: 1.4vh;
+   }
+   .subheading{
+    margin-top: 1.5vh;
+     font-size: 0.9vh;
+   }
+   .hero-section{
+    gap: 5vh;
+   }
+   .hero-content1{
+    margin-left: 2vh;
+    width: 35%;
+   }
+  .hero-content2 {
+    width: 40%;
+    height: 10vh;
+  }
+  .hero-content2 div{
+    gap: 3vh;
+  }
+  .hero-content2 img{
+    margin-top: 1vh;
+    width: 2vh;
+  }
+   .section-title {
+     font-size: 1.8vh;
+   }
+   .feature-card {
+     height: fit-content;
+     padding: 3vh;
+     font-size: 1.3vh;
+   }
+   .feature-title{
+       font-size: 1.5vh;
+   }
+   .feature-description{
+       font-size: 1vh;
+   }
+   .benefits-section{
+     margin-top: 40vh;
+   }
+   .benefit-title {
+     font-size: 1vh;
+   }
+   .benefits-grid {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+   }
+   .benefit-card{
+     width: 90%;
+     height: 2vh;
+   }
+   .btn {
+    margin-top: 1vh;
+     padding: 0.5vh 0.5vh;
+     font-size: 0.5vh;
+   }
+   .benefit-title {
+     font-size: 2vh;
+   }
+   .whyhealthybites{
+     font-size: 2.5vh;
+     font-weight: bolder;
+     text-align: center;
+   }
+   .detail{
+     height: 70vh;
+   }
+   .info{
+     text-align: center;
+   }
+   .details{
+     margin-left: 3vh; 
+     width: 80%;
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+   }
+   .alldetail{
+     font-weight: bold;
+     width: 90%;
+     height: 17vh;
+     box-shadow: 0 0.6vh 1vh rgba(7, 0, 0, 0.438);
+   }
+   .alldetail .detail-title, .detail-description{
+     margin-left: 10vh;
+   }
+   i{
+     position: relative;
+     top: 5vh;
+     font-size: 2.5vh;
+     color: #218838;
+   }
+   .footer{
+     height: fit-content;
+     padding: 5vh;
+     margin-top: 25vh;
+   }
+   .footer-tittle{
+     font-size: 1vh;
+   }
+   .footer-container{
+     font-size: 1vh;
+   }
+   .footer-content{
+     display: flex;
+     flex-direction: column;
+     gap: 1vh;
+   }
+   .social-icon{
+     padding: 0.5vh 0.5vh;
+   }
+}
+
+@media(min-width:530px) and (max-width:700px){
+  .logo{
+    margin-left: 1.5vh;
+   }
+  .logo-1{
+    font-size: 3vh;
+  }
+  .logo-2{
+    font-size: 1.5vh;
+  }
+  .nav ul li {
+       margin-right: 1vh;
+       font-size: 2.2vh;
+     }
+  .heading{
+    font-size: 2.2vh;
+  }
+.subheading{
+ margin-top: 1.5vh;
+  font-size: 1vh;
+}
+.hero-content1{
+ margin-left: 0.8vh;
+ width: 40%;
+}
+.hero-content2 {
+ width: 40%;
+ height: 15vh;
+}
+.hero-content2 div{
+ gap: 3vh;
+}
+.hero-content2 img{
+ margin-top: 1.5vh;
+ width: 3vh;
+}
+.btn {
+margin-top: 1vh;
+ padding: 0.8vh 0.8vh;
+ font-size: 0.8vh;
+}
+}
+ 
+@media(min-width:700px) and (max-width:1000px){
+     .logo{
+      margin-left: 2vh;
+     }
+    .logo-1{
+      font-size: 4vh;
+    }
+    .logo-2{
+      font-size: 2vh;
+    }
+    .nav ul li {
+      margin-right: 3vh;
+      font-size: 3vh;
+    }
+    .options{
+      font-size: 3.5vh;
+    }
+     .welcome{
+       font-size: 1.7vh;
+     }
+     .web-name{
+       font-size: 3vh;
+     }
+   .heading{
+     font-size: 2vh;
+     font-weight: bold;
+   }
+   .subheading{
+    margin-top: 3vh;
+     font-size: 1.5vh;
+   }
+   .btn {
+     padding: 1vh 2vh;
+     font-size: 1.8vh;
+   }
+   .hero-content1{
+    width: 40%;
+   }
+  .hero-content2 {
+    height: 25vh;
+  }
+  .hero-content2 div{
+    gap: 4vh;
+  }
+  .hero-content2 img{
+    margin-top: 2vh;
+    width: 4.5vh;
+  }
+   .section-title {
+     font-size: 2.5vh;
+   }
+   .features-section{
+       height: 60vh;
+   }
+   .benefits-section{
+     margin-top: 35vh;
+   }
+   .benefit-title{
+       font-size: 2vh;
+   }
+   .whyhealthybites{
+     font-size: 2.7vh;
+     font-weight: bolder;
+     text-align: center;
+   }
+   .detail{
+     height: 80vh;
+     padding-top: 2vh;
+     margin-top: 4vh;
+   }
+   .info{
+     text-align: center;
+   }
+   .details{
+     margin-left: 3vh;
+     width: 97%;
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+   }
+   .alldetail{
+     font-weight: bold;
+     width: 90%;
+     height: 17vh;
+     box-shadow: 0 0.6vh 1vh rgba(7, 0, 0, 0.438);
+   }
+   .alldetail .detail-title, .detail-description{
+     margin-left: 10vh;
+   }
+   i{
+     position: relative;
+     top: 5vh;
+     left: 2vh;
+     font-size: 4vh;
+     color: #218838;
+   }
+   .detail-description{
+     font-weight: 500;
+   }
+   .footer-content{
+     display: flex;
+     flex-direction: column;
+     gap: 2vh;
+   }
+   .social-icon{
+     padding: 0.5vh 0.5vh;
+   }
+}
+
+@media(min-width:1000px) and (max-width:1450px){
+  .logo{
+    margin-left: 4vh;
+   }
+  .logo-1{
+    font-size: 5vh;
+  }
+  .logo-2{
+    font-size: 2.5vh;
+  }
+.welcome{
+  font-size: 3vh;
+}
+.web-name{
+  font-size: 3vh;
+}
+.hero-content2 {
+  height: 25vh;
+}
+.hero-content2 div{
+  gap: 4vh;
+}
+.hero-content2 img{
+  margin-top: 2vh;
+  width: 6vh;
+}
+.heading{
+   font-size: 4vh;
+}
+.subheading{
+  margin-top: 1vh;
+  font-size: 1.5vh;
+}
+.btn {
+  margin-top: 2vh;
+   padding: 1vh 1.8vh;
+   font-size: 2.3vh;
+}
+}

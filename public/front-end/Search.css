@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body{
+    position: absolute;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(90deg, white, #28a74679);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    padding: 37.3vh 24vw;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    font-size: larger;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 22px;
+    margin-bottom:50px ;
+    border:1px solid #dadada;
+    outline-color: royalblue;
+}
+
+.fooddetails{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.food{
+    display: flex;
+    flex-direction: column;
+    width: 23vh;
+    cursor: pointer;
+}
+
+img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.img{
+    border: 2px solid black;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 5px;
+    background-position: top;
+}
+
+.alert-box{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgba(0, 0, 0, 0.699);
+    justify-content: center;
+    align-items: center;
+}
+    
+.alert-content {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alert-content h2 {
+    font-size: 5vh;
+    color: #333;
+}
+
+.nutrition {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+    margin-top: 5vh;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.nutrition div{
+    background: rgba(255, 255, 255, 0.11);
+    padding: 1.5vh 3.5vh;
+    border-radius: 3vh;
+    font-weight: bold;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.308);
+    color: black;
+    font-size: 2.8vh;
+    transition-duration: 1s;
+}
+
+.nutrition div:hover {
+    font-weight: bolder;
+    transform: scale(1.2);
+    background: #0026ff;
+    color: white;
+    cursor: default;
+    transition-delay: 0.4s;
+}
+
+.alert-content button{
+    margin: 3vh;
+    margin-top: 9vh;
+    font-size: larger;
+    padding: 15px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5vh;
+    cursor: pointer;
+    font-weight: bold;
+}
+    
+.alert-content button:hover{
+    transform: scale(1.2);
+    font-weight: bolder;
+    background-color: blue;
+}
+
+.nutrition-data{
+    display: none;
+}
+
+/*More info*/
+.container button{
+    margin-top: 6vh;
+    padding: 13px 23px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    cursor: pointer;
+    font-size: 2.6vh;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+    
+.container button:hover{
+    background-color: #007bff;
+    color: white;
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition-delay: 0.5s;
+}
+
+@media(min-width:300px) and (max-width:400px){
+    input{
+        font-size: 1.5vh;
+        margin-bottom: 2vh;
+    }
+    .alert-content {
+        padding: 10px;
+        width: 200px;
+    }
+    .alert-content h2 {
+        font-size: 2vh;
+    }
+    .nutrition {
+        gap: 1vh;
+        margin-top: 2vh;
+    }
+    .nutrition div{
+        padding: 0.5vh 1.5vh;
+        font-size: 1vh;
+    }
+    .alert-content button{
+        margin: 1vh;
+        margin-top: 3vh;
+        padding: 10px 5px;
+        font-size: 1vh;
+    }
+}
+
+@media(min-width:400px) and (max-width:700px){
+    input{
+        font-size: 2vh;
+        margin-bottom: 3vh;
+    }
+    .alert-content {
+        padding: 30px;
+        width: 300px;
+    }
+    .alert-content h2 {
+        font-size: 2.5vh;
+    }
+    .nutrition {
+        gap: 2vh;
+        margin-top: 3vh;
+    }
+    .nutrition div{
+        padding: 1vh 2vh;
+        font-size: 2vh;
+    }
+    .alert-content button{
+        margin: 2vh;
+        margin-top: 4vh;
+        padding: 20px 15px;
+        font-size: 2vh;
+    }
+}
+
+@media(min-width:700px) and (max-width:1000px){
+    input{
+        font-size: 3vh;
+        margin-bottom: 4vh;
+    }
+    .alert-content {
+        width: 400px;
+    }
+    .alert-content h2 {
+        font-size: 4vh;
+    }
+}

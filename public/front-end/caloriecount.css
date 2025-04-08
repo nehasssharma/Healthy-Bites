@@ -1,0 +1,363 @@
+body{
+    background-color: rgb(247, 245, 243);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.logo1{
+    position: fixed;
+    background-color: rgb(247, 245, 243);
+    width: 100%;
+}
+
+.logo{
+    font-family: serif;
+    font-weight: bolder;
+    color: purple;
+    font-size: 5vh;
+    height: 6vh;
+    width: 90%;
+    margin-left: 10vh;
+    padding-left: 4vh;
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.front{
+   padding-top: 10vh;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+
+.heading{
+    font-size: 9vh;
+    margin-top: 13vh;
+    height: 5vh;
+}
+
+.subheading{
+    font-size: 3vh;
+    width: 130vh;
+    color: rgb(112, 112, 112);
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+label{
+    font-size: 3vh;
+}
+
+input{
+    width: 40vh;
+    height: 4vh;
+}
+
+select{
+    font-size: 2vh;
+    width: 40vh;
+    height: 4.5vh;
+}
+
+.options{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 1vh;
+    height: 25vh;
+    width: 80vh;
+    gap: 0.5vh;
+    background-color: rgb(231, 231, 230);
+}
+
+.options:hover{
+    background: rgb(170, 252, 170);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    width: 100%;
+    height: 28vh;
+}
+
+#calculate-btn {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5vh;
+    padding: 1.8vh 2vh;
+    font-size: 2.3vh;
+    margin-top: 3vh;
+}
+  
+#calculate-btn:hover {
+    background: #218838;
+    transform: scale(1.1);
+}
+
+#result{
+    font-size: 4vh;
+    text-align: center;
+    background: rgb(170, 252, 170);
+    display: block;
+    margin: 0 auto;
+    width: 52%;
+}
+
+.allpara{
+    padding-top: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 130vh;
+}
+
+.para{
+    font-size: 3vh;
+    width: 120vh;
+    color: rgb(112, 112, 112);
+}
+
+/*Media Queries*/
+@media(min-width:300px) and (max-width:400px){
+    .logo{
+        width: 100%;
+        height: 5vh;
+        font-size: 2.3vh;
+        margin-left: 2vh;
+        padding-left: 1vh;
+      }
+    .front{
+        height: 5vh;
+    }
+    .heading{
+        font-size: 1.5vh;
+    }
+    .subheading{
+        font-size: 1vh;
+        width: 25vh;
+    }
+    label{
+        font-size: 1vh;
+    }
+    input{
+        width: 8vh;
+        height: 1vh;
+    }
+    select{
+        font-size: 1vh;
+        width: 8vh;
+        height: 1.5vh;
+    }
+    .options{
+        height: 8vh;
+        width: 15vh;
+    }
+    .form{
+        height: 60vh;
+        margin-top: 0;
+        gap: 2vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .row{
+        height: 17vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 3vh;
+    }
+
+    #calculate-btn {
+        padding: 1vh 1vh;
+        font-size: 1vh;
+        margin-top: 0;
+    }
+    #result{
+        font-size: 1vh;
+    }
+    .allpara{
+        padding-top: 2vh;
+        height: 48vh;
+    }
+    .para{
+        font-size: 1vh;
+        width: 25vh;
+        margin-top: 0;
+    }
+}
+
+@media(min-width:400px) and (max-width:700px){
+    .logo{
+        width: 100%;
+        height: 5vh;
+        font-size: 2.7vh;
+        margin-left: 0.5vh;
+        padding-left: 1vh;
+      }
+    .front{
+        height: 10vh;
+    }
+    .heading{
+        font-size: 2vh;
+    }
+    .subheading{
+        font-size: 1.5vh;
+        width: 35vh;
+    }
+    label{
+        font-size: 1.5vh;
+    }
+    input{
+        width: 10vh;
+        height: 1vh;
+    }
+    select{
+        font-size: 1.3vh;
+        width: 10vh;
+        height: 2vh;
+    }
+    .options{
+        height: 8vh;
+        width: 20vh;
+    }
+    .form{
+        margin-top: 9vh;
+        gap: 4vh;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .row{
+        height: 22vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 4vh;
+    }
+    #calculate-btn {
+        padding: 1.5vh 1.5vh;
+        font-size: 1.8vh;
+    }
+    #result{
+        font-size: 1.3vh;
+    }
+    .allpara{
+        height: 80vh;
+        padding-top: 2vh;
+    }
+    .para{
+        font-size: 1.5vh;
+        width: 35vh;
+        margin-top: 0;
+    }
+}
+
+@media(min-width:700px) and (max-width:1000px){
+    .logo{
+        font-size: 4vh;
+        margin-left: 2vh;
+        padding-left: 2vh;
+      }
+    .front{
+        height: 20vh;
+    }
+    .heading{
+        font-size: 4vh;
+    }
+    .subheading{
+        font-size: 2vh;
+        width: 60vh;
+    }
+    label{
+        font-size: 2vh;
+    }
+    input{
+        width: 20vh;
+        height: 2vh;
+    }
+    select{
+        font-size: 1.8vh;
+        width: 20vh;
+        height: 2.5vh;
+    }
+    .options{
+        height: 15vh;
+        width: 30vh;
+    }
+    .form{
+        margin-top: 1.5vh;
+        gap: 0;
+        height: 80vh;
+    }
+    #result{
+        font-size: 2vh;
+    }
+    .para{
+        font-size: 2vh;
+        width: 40vh;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1300px){
+    .logo{
+        font-size: 5vh;
+        margin-left: 2vh;
+        padding-left: 2vh;
+      }
+    .heading{
+        font-size: 6vh;
+    }
+    .subheading{
+        font-size: 2.5vh;
+        width: 90vh;
+    }
+    label{
+        font-size: 2.5vh;
+    }
+    input{
+        width: 30vh;
+        height: 3vh;
+    }
+    select{
+        font-size: 2vh;
+        width: 30vh;
+        height: 3vh;
+    }
+    .options{
+        height: 20vh;
+        width: 50vh;
+    }
+    .form{
+        gap: 2vh;
+        height: 90vh;
+    }
+    #result{
+        font-size: 2.5vh;
+    }
+    .para{
+        font-size: 2.5vh;
+        width: 90vh;
+    }
+}

@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+ }
+
+body {
+    height: 100vh;
+    width: 100%;
+    /*Background: linear-gradient(135deg, #ff9a9e, #2013d6);*/
+    background: content-box radial-gradient(crimson, skyblue);
+   /* background: content-box radial-gradient(limegreen, skyblue);*/
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cursor{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+}
+
+/*box*/
+#box{
+    display: flex;
+    align-items: center;
+    background: rgba(247, 246, 246, 0.089);
+    padding: 5vh;
+    height: 600px;
+    width: 1600px;
+    border-radius: 4vh;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transform: scale(0.9);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s;
+}
+
+#overlay{
+    height: 600px;
+    width: 1470px;
+    position: absolute;
+    border-radius: 4vh;
+}
+
+.image {
+    flex: 1;
+    position: relative;
+}
+
+.image img {
+    margin-left: 6vh;
+    height: 50vh;
+    width: 60vh;
+    border-radius: 2.5vh;
+    transition: transform 0.5s, filter 0.5s;
+    filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
+}
+
+.details {
+    flex: 2;
+    position: relative;
+    text-align: center;
+}
+
+.details h1 {
+    font-size: 7vh;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.details p {
+    width: 80%;
+    font-size: 3vh;
+    margin-top: 5vh;
+    margin-left: 10%;
+    color: #f8f8f8;
+}
+
+/*nutrition section*/
+.nutrition {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3vh;
+    justify-content: center;
+    margin-top: 7vh;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.nutrition div{
+    background: rgba(255, 255, 255, 0.11);
+    padding: 1.5vh 3.5vh;
+    border-radius: 3vh;
+    font-weight: bold;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.466);
+    color: white;
+    font-size: 2.8vh;
+    transition-duration: 1s;
+}
+
+.nutrition div:hover {
+    font-weight: bolder;
+    transform: scale(1.2);
+    background: #ffcc00;
+    color: #333;
+    cursor: default;
+    transition-delay: 0.4s;
+}
+
+/*Hover effect on cursor*/
+.cursor-effect {
+    position: absolute;
+    width: 9vh;
+    height: 9vh;
+    background: rgba(0, 0, 0, 0.308);
+    border-radius: 50%;
+    pointer-events: none;
+    backdrop-filter: blur(5px);
+    transition: transform 0.05s ease-out;
+}
+
+/*More info*/
+button{
+    margin-top: 10vh;
+    padding: 13px 23px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    cursor: pointer;
+    font-size: 2.6vh;
+    transition-duration: 1s;
+}
+    
+button:hover{
+    background-color: #007bff;
+    color: rgba(0, 0, 0, 0.63);
+    font-weight: bolder;
+    transform: scale(1.2);
+    transition-delay: 0.5s;
+}
+
+/* Responsive design */
+@media(min-width:300px) and (max-width:400px){
+    body{
+        height: 100vh;
+    }
+    .image img {
+        display: none;
+    }
+    .details h1 {
+        font-size: 2vh;
+    }
+    .details p {
+        font-size: 0.5vh;
+        margin: 0.5vh;
+    }
+    .nutrition div {
+        padding: 0.5vh 1vh;
+        font-size: 0.5vh;
+    }
+    button{
+        font-size: 1vh;
+        padding: 0.5vh 1vh;
+    }
+} 
+
+@media(min-width:400px) and (max-width:700px){
+    body{
+        height: 100vh;
+    }
+    .image img {
+        height: 10vh;
+        width: 15vh;
+    }
+    .details h1 {
+        font-size: 2.5vh;
+    }
+    .details p {
+        font-size: 1vh;
+        margin: 1vh;
+    }
+    .nutrition div {
+        padding: 0.5vh 1vh;
+        font-size: 1vh;
+    }
+    button{
+        font-size: 1.5vh;
+        padding: 0.5vh 1vh;
+    }
+}
+
+@media(min-width:700px) and (max-width:1000px){
+    body{
+        height: 100vh;
+    }
+    .image img {
+        height: 25vh;
+        width: 35vh;
+    }
+    .details h1 {
+        font-size: 3vh;
+    }
+    .details p {
+        font-size: 1.5vh;
+    }
+    .nutrition div {
+        font-size: 1.5vh;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1500px){
+    .image img {
+        height: 30vh;
+        width: 40vh;
+    }
+}

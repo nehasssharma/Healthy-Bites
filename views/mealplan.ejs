@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Meal Plan</title>
+    <link rel="stylesheet" href="/front-end/mealplanning.css">
+</head>
+<body>
+    <h1>Your Weekly <%= mealType === 'veg' ? 'Pure Veg' : 'Veg + Non-Veg' %> Meal Plan</h1>
+
+    <table>
+        <tr>
+            <th>Day</th>
+            <th>Breakfast</th>
+            <th>Snacks</th>
+            <th>Lunch</th>
+            <th>Dinner</th>
+        </tr>
+        <% for (let day in mealPlan) { %>
+            <tr>
+                <td><strong><%= day %></strong></td>
+                <td><%= mealPlan[day].breakfast.unit %> <%= mealPlan[day].breakfast.name %> (<%= mealPlan[day].breakfast.calories %> kcal)</td>
+                <td><%= mealPlan[day].snacks.unit %> <%= mealPlan[day].snacks.name %> (<%= mealPlan[day].snacks.calories %> kcal)</td>
+                <td><%= mealPlan[day].lunch.unit %> <%= mealPlan[day].lunch.name %> (<%= mealPlan[day].lunch.calories %> kcal)</td>
+                <td><%= mealPlan[day].dinner.unit %> <%= mealPlan[day].dinner.name %> (<%= mealPlan[day].dinner.calories %> kcal)</td>
+            </tr>
+        <% } %>
+    </table>
+
+    <div class="goback"><a href="/MealPlanning">Go Back</a></div>
+</body>
+</html>

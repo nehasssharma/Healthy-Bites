@@ -1,0 +1,394 @@
+body{
+    background-color: rgb(247, 245, 243);
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    cursor: default;
+}
+
+/* Container */
+.container {
+  position: relative;
+  top: 20vh;
+  text-align: center;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  transition: 0.3s ease-in-out;
+}
+
+.container:hover {
+  transform: scale(1.03);
+}
+
+/* Heading */
+h1 {
+  color: #007bff;
+  font-size: 32px;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+  text-align: center;
+} 
+
+h1:hover {
+  color: #0056b3;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  width: 60%;
+  font-size: 18px;
+  border: 2px solid #007bff;
+  border-radius: 6px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+  border-color: #0056b3;
+  box-shadow: 0px 0px 10px rgba(0, 91, 187, 0.5);
+}
+
+/* Button */
+button {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  overflow: hidden;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.06);
+}
+
+/* Meal Plan Table */
+table {
+  width: 80%;
+  margin: 25px auto;
+  margin-top: 5vh;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 14px;
+  text-align: left;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Table Heading */
+th {
+  background: #007bff;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* Table Row Hover Effect */
+tr {
+  transition: all 0.3s ease-in-out;
+}
+
+tr:hover {
+  background: #dfe8ff;
+  transform: scale(1.02);
+}
+
+/* Go Back Link */
+.goback{
+  text-align: center;
+}
+
+a {
+  display: inline-block;
+  margin-top: 25px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #007bff;
+  font-weight: bold;
+  transition: 0.3s;
+  height: 20vh;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+  transform: scale(1.1);
+}
+
+.logo1{
+    position: fixed;
+    background-color: rgb(247, 245, 243);
+    width: 100%;
+}
+
+.logo{
+    font-family: serif;
+    font-weight: bolder;
+    color: purple;
+    font-size: 5vh;
+    height: 6vh;
+    width: 90%;
+    margin-left: 10vh;
+    padding-left: 4vh;
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.info{
+    padding-top: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 520vh;
+}
+
+.info-box{
+    width: 50%;
+}
+
+.heading{
+    font-size: 8vh;
+    height: 12vh;
+    color: rgb(49, 49, 49);
+    text-align: start;
+}
+
+.heading:hover{
+  color: rgb(49, 49, 49);
+}
+
+.subheading{
+    font-size: 3vh;
+    width: 120vh;
+    color: rgb(112, 112, 112);
+}
+
+h2{
+    font-size: 5vh;
+    color: rgb(49, 49, 49);
+}
+
+/* ---- Responsive Design ---- */
+
+/* Small Mobile Screens (320px - 768px) */
+@media (min-width: 320px) and (max-width: 768px) {
+  .container {
+      width: 90%;
+      padding: 20px;
+  }
+  
+  h1 {
+      font-size: 24px;
+  }
+  
+  input {
+      width: 80%;
+      font-size: 16px;
+  }
+
+  button {
+      font-size: 16px;
+      padding: 10px 20px;
+  }
+
+  table {
+      width: 100%;
+  }
+
+  th, td {
+      font-size: 14px;
+      padding: 10px;
+  }
+
+  a {
+      font-size: 16px;
+  }
+}
+
+/* Tablet Screens (400px - 700px) */
+@media (min-width: 400px) and (max-width: 700px) {
+  .container {
+      width: 85%;
+      padding: 25px;
+  }
+
+  h1 {
+      font-size: 26px;
+  }
+
+  input {
+      width: 75%;
+      font-size: 17px;
+  }
+
+  button {
+      font-size: 17px;
+      padding: 10px 22px;
+  }
+
+  table {
+      width: 98%;
+  }
+
+  th, td {
+      font-size: 16px;
+      padding: 12px;
+  }
+
+  a {
+      font-size: 18px;
+  }
+}
+
+/* Medium Screens (700px - 1000px) */
+@media (min-width: 700px) and (max-width: 1000px) {
+  .container {
+      width: 70%;
+      padding: 30px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  input {
+      width: 70%;
+      font-size: 18px;
+  }
+
+  button {
+      font-size: 18px;
+      padding: 12px 24px;
+  }
+
+  table {
+      width: 95%;
+  }
+
+  th, td {
+      font-size: 18px;
+      padding: 14px;
+  }
+
+  a {
+      font-size: 20px;
+  }
+}
+
+
+@media(min-width: 320px) and (max-width:768px){
+    .logo{
+      width: 100%;
+      height: 5vh;
+      font-size: 2.3vh;
+      margin-left: 2vh;
+      padding-left: 1vh;
+    }
+    .info{
+      padding-top: 25vh;
+    }
+    .info-box{
+      width: 80%;
+    }
+    .heading{
+      font-size: 4vh;
+      height: 4vh;
+    }
+    .subheading{
+      width: 100%;
+    }
+    h2{
+      font-size: 3vh;
+    }
+  }
+  
+  @media(min-width:400px) and (max-width:700px){
+    .logo{
+      width: 100%;
+      height: 5vh;
+      font-size: 2.7vh;
+      margin-left: 0.5vh;
+      padding-left: 1vh;
+    }
+    .info{
+      padding-top: 25vh;
+    }
+    .info-box{
+      width: 80%;
+    }
+    .heading{
+      font-size: 6vh;
+      height: 5vh;
+    }
+    .subheading{
+      margin-top: 10vh;
+      width: 100%;
+    }
+  }
+  
+  
+  @media(min-width:700px) and (max-width:1000px){
+    .logo{
+      font-size: 4vh;
+      margin-left: 2vh;
+      padding-left: 2vh;
+    }
+    .info-box{
+      width: 80%;
+    }
+    .heading{
+      font-size: 6vh;
+      height: 5vh;
+    }
+    .subheading{
+      width: 100%;
+    }
+  }
+  
+  @media(min-width:1000px) and (max-width:1500px){
+    .logo{
+      font-size: 5vh;
+      margin-left: 2vh;
+      padding-left: 2vh;
+    }
+    .info-box{
+      width: 80%;
+    }
+    .heading{
+      height: 5vh;
+    }
+    .subheading{
+      margin-top: 4vh;
+      width: 100%;
+    }
+  }

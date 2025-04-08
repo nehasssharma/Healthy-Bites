@@ -1,0 +1,520 @@
+{
+    "breakfast": [
+      {
+        "name": "Idli", 
+        "unit": "2 pieces - 100g", 
+        "calories": 140
+      },
+      {
+        "name": "Dosa", 
+        "unit": "1 medium - 100g", 
+        "calories": 168
+      },
+      {
+        "name": "Upma", 
+        "unit": "1 bowl - 150g", 
+        "calories": 250
+      },
+      {
+        "name": "Poha", 
+        "unit": "1 plate - 120g", 
+        "calories": 200
+      },
+      {
+        "name": "Paratha", 
+        "unit": "1 piece - 100g", 
+        "calories": 260
+      },
+      {
+        "name": "Aloo Paratha", 
+        "unit": "1 piece - 120g", 
+        "calories": 300
+      },
+      {
+        "name": "Paneer Paratha",
+        "unit": "1 piece - 120g", 
+        "calories": 330
+      },
+      {
+        "name": "Chole Bhature", 
+        "unit": "1 plate - 250g", 
+        "calories": 450
+      },
+      {
+        "name": "Puri Bhaji", 
+        "unit": "3 puris + bhaji - 250g", 
+        "calories": 400
+      },
+      {
+        "name": "Misal Pav", 
+        "unit": "1 plate - 200g", 
+        "calories": 350
+      },
+      {
+        "name": "Pav Bhaji", 
+        "unit": "1 plate - 250g", 
+        "calories": 450
+      },
+      {
+        "name": "Thepla", 
+        "unit": "2 pieces - 120g", 
+        "calories": 220
+      },
+      {
+        "name": "Dhokla", 
+        "unit": "1 plate - 150g", 
+        "calories": 200
+      },
+      {
+        "name": "Seviyan", 
+        "unit": "1 bowl - 150g", 
+        "calories": 280
+      },
+      {
+        "name": "Sabudana Khichdi",
+         "unit": "1 plate - 150g", 
+         "calories": 350
+      },
+      {
+        "name": "Medu Vada", 
+        "unit": "2 pieces - 100g",
+        "calories": 330
+      },
+      {
+        "name": "Samosa", 
+        "unit": "1 piece - 100g", 
+        "calories": 250
+      },
+      {
+        "name": "Bread Butter", 
+        "unit": "2 slices - 60g", 
+        "calories": 200
+      },
+      {
+        "name": "Egg Omelette", 
+        "unit": "2 eggs - 100g", 
+        "calories": 220
+      },
+      {
+        "name": "Paneer Bhurji", 
+        "unit": "1 bowl - 150g", 
+        "calories": 300
+      },
+      {
+        "name": "Vegetable Sandwich",
+        "unit": "1 piece - 150g", 
+        "calories": 250
+      },
+      {
+        "name": "Sprouts Salad", 
+        "unit": "1 bowl - 150g",
+        "calories": 180
+      },
+      {
+        "name": "Rava Dosa", 
+        "unit": "1 medium - 120g",
+        "calories": 170
+      },
+      {
+        "name": "Methi Thepla",
+        "unit": "2 pieces - 120g", 
+        "calories": 250
+      },
+      {
+        "name": "Besan Chilla",
+        "unit": "2 pieces - 100g", 
+        "calories": 200
+      },
+      {
+        "name": "Pesarattu", 
+        "unit": "1 piece - 100g", 
+        "calories": 180
+      },
+      {
+        "name": "Ragi Dosa", 
+        "unit": "1 medium - 120g", 
+        "calories": 160
+      },
+      {
+        "name": "Neer Dosa", 
+        "unit": "2 pieces - 120g", 
+        "calories": 150
+      },
+      {
+        "name": "Kanda Poha", 
+        "unit": "1 plate - 150g", 
+        "calories": 220
+      },
+      {
+        "name": "Cornflakes with Milk", 
+        "unit": "1 bowl - 200g", 
+        "calories": 220
+      }
+    ],
+    "lunch": [
+      {
+        "name": "Dal Tadka",
+        "unit": "1 bowl (150g)",
+        "calories": 180
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "unit": "1 bowl (200g)",
+        "calories": 360
+      },
+      {
+        "name": "Rajma Chawal",
+        "unit": "1 plate (300g)",
+        "calories": 400
+      },
+      {
+        "name": "Chole Bhature",
+        "unit": "2 bhature + 1 bowl chole (350g)",
+        "calories": 550
+      },
+      {
+        "name": "Aloo Paratha",
+        "unit": "1 piece (100g)",
+        "calories": 280
+      },
+      {
+        "name": "Vegetable Pulao",
+        "unit": "1 bowl (250g)",
+        "calories": 300
+      },
+      {
+        "name": "Palak Paneer",
+        "unit": "1 bowl (200g)",
+        "calories": 270
+      },
+      {
+        "name": "Mutter Paneer",
+        "unit": "1 bowl (200g)",
+        "calories": 320
+      },
+      {
+        "name": "Masoor Dal",
+        "unit": "1 bowl (150g)",
+        "calories": 150
+      },
+      {
+        "name": "Bhindi Fry",
+        "unit": "1 bowl (150g)",
+        "calories": 180
+      },
+      {
+        "name": "Baingan Bharta",
+        "unit": "1 bowl (200g)",
+        "calories": 200
+      },
+      {
+        "name": "Jeera Rice",
+        "unit": "1 bowl (250g)",
+        "calories": 290
+      },
+      {
+        "name": "Mixed Vegetable Curry",
+        "unit": "1 bowl (200g)",
+        "calories": 250
+      },
+      {
+        "name": "Roti (Whole Wheat)",
+        "unit": "1 piece (40g)",
+        "calories": 120
+      },
+      {
+        "name": "Ghee Roti",
+        "unit": "1 piece (45g)",
+        "calories": 150
+      },
+      {
+        "name": "Plain Rice",
+        "unit": "1 bowl (200g)",
+        "calories": 250
+      },
+      {
+        "name": "Curd Rice",
+        "unit": "1 bowl (250g)",
+        "calories": 330
+      },
+      {
+        "name": "Sambhar Rice",
+        "unit": "1 bowl (250g)",
+        "calories": 350
+      },
+      {
+        "name": "Kadhi Chawal",
+        "unit": "1 plate (300g)",
+        "calories": 380
+      },
+      {
+        "name": "Dhokla",
+        "unit": "3 pieces (100g)",
+        "calories": 160
+      },
+      {
+        "name": "Vegetable Khichdi",
+        "unit": "1 bowl (250g)",
+        "calories": 320
+      },
+      {
+        "name": "Chicken Curry",
+        "unit": "1 bowl (200g)",
+        "calories": 400
+      },
+      {
+        "name": "Egg Curry",
+        "unit": "1 bowl (200g)",
+        "calories": 300
+      },
+      {
+        "name": "Fish Curry",
+        "unit": "1 bowl (200g)",
+        "calories": 350
+      },
+      {
+        "name": "Tandoori Roti",
+        "unit": "1 piece (50g)",
+        "calories": 130
+      },
+      {
+        "name": "Paratha (Plain)",
+        "unit": "1 piece (80g)",
+        "calories": 250
+      },
+      {
+        "name": "Stuffed Capsicum",
+        "unit": "1 piece (120g)",
+        "calories": 180
+      },
+      {
+        "name": "Aloo Matar",
+        "unit": "1 bowl (200g)",
+        "calories": 260
+      },
+      {
+        "name": "Lauki Chana Dal",
+        "unit": "1 bowl (200g)",
+        "calories": 220
+      },
+      {
+        "name": "Raita (Cucumber/Boondi)",
+        "unit": "1 bowl (150g)",
+        "calories": 120
+      }
+    ],
+    "snacks": [
+      {
+        "name": "Samosa",
+        "unit": "1 piece (100g)",
+        "calories": 262
+      },
+      {
+        "name": "Pakora",
+        "unit": "1 piece (50g)",
+        "calories": 180
+      },
+      {
+        "name": "Kachori",
+        "unit": "1 piece (80g)",
+        "calories": 200
+      },
+      {
+        "name": "Dhokla",
+        "unit": "100g",
+        "calories": 160
+      },
+      {
+        "name": "Sev Puri",
+        "unit": "6 pieces (120g)",
+        "calories": 300
+      },
+      {
+        "name": "Pani Puri",
+        "unit": "6 pieces (90g)",
+        "calories": 180
+      },
+      {
+        "name": "Bhel Puri",
+        "unit": "1 plate (150g)",
+        "calories": 290
+      },
+      {
+        "name": "Vada Pav",
+        "unit": "1 piece (150g)",
+        "calories": 280
+      },
+      {
+        "name": "Misal Pav",
+        "unit": "1 plate (200g)",
+        "calories": 350
+      },
+      {
+        "name": "Pav Bhaji",
+        "unit": "1 plate (250g)",
+        "calories": 400
+      },
+      {
+        "name": "Momos",
+        "unit": "6 pieces (150g)",
+        "calories": 280
+      },
+      {
+        "name": "Aloo Tikki",
+        "unit": "1 piece (100g)",
+        "calories": 190
+      },
+      {
+        "name": "Masala Papad",
+        "unit": "1 piece (50g)",
+        "calories": 120
+      },
+      {
+        "name": "Bhujia",
+        "unit": "100g",
+        "calories": 550
+      },
+      {
+        "name": "Khandvi",
+        "unit": "100g",
+        "calories": 200
+      },
+      {
+        "name": "Chakli",
+        "unit": "1 piece (50g)",
+        "calories": 250
+      },
+      {
+        "name": "Banana Chips",
+        "unit": "100g",
+        "calories": 500
+      },
+      {
+        "name": "Murukku",
+        "unit": "1 piece (50g)",
+        "calories": 250
+      },
+      {
+        "name": "Chana Chaat",
+        "unit": "1 bowl (150g)",
+        "calories": 220
+      },
+      {
+        "name": "Poha",
+        "unit": "1 plate (200g)",
+        "calories": 250
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Chapati",
+        "unit": "1 piece (40g)",
+        "calories": 120
+      },
+      {
+        "name": "Plain Rice",
+        "unit": "1 cup (150g)",
+        "calories": 206
+      },
+      {
+        "name": "Dal Tadka",
+        "unit": "1 bowl (150g)",
+        "calories": 180
+      },
+      {
+        "name": "Paneer Butter Masala",
+        "unit": "1 serving (150g)",
+        "calories": 400
+      },
+      {
+        "name": "Aloo Gobi",
+        "unit": "1 bowl (150g)",
+        "calories": 150
+      },
+      {
+        "name": "Chicken Curry",
+        "unit": "1 serving (150g)",
+        "calories": 250
+      },
+      {
+        "name": "Fish Curry",
+        "unit": "1 serving (150g)",
+        "calories": 220
+      },
+      {
+        "name": "Mutton Curry",
+        "unit": "1 serving (150g)",
+        "calories": 350
+      },
+      {
+        "name": "Baingan Bharta",
+        "unit": "1 bowl (150g)",
+        "calories": 130
+      },
+      {
+        "name": "Rajma",
+        "unit": "1 bowl (150g)",
+        "calories": 210
+      },
+      {
+        "name": "Chole",
+        "unit": "1 bowl (150g)",
+        "calories": 220
+      },
+      {
+        "name": "Palak Paneer",
+        "unit": "1 bowl (150g)",
+        "calories": 250
+      },
+      {
+        "name": "Bhindi Masala",
+        "unit": "1 bowl (150g)",
+        "calories": 140
+      },
+      {
+        "name": "Vegetable Pulao",
+        "unit": "1 cup (150g)",
+        "calories": 200
+      },
+      {
+        "name": "Khichdi",
+        "unit": "1 bowl (200g)",
+        "calories": 250
+      },
+      {
+        "name": "Raita",
+        "unit": "1 bowl (100g)",
+        "calories": 60
+      },
+      {
+        "name": "Curd",
+        "unit": "1 bowl (100g)",
+        "calories": 80
+      },
+      {
+        "name": "Paratha",
+        "unit": "1 piece (80g)",
+        "calories": 260
+      },
+      {
+        "name": "Dosa",
+        "unit": "1 piece (80g)",
+        "calories": 168
+      },
+      {
+        "name": "Sambar",
+        "unit": "1 bowl (150g)",
+        "calories": 120
+      },
+      {
+        "name": "Rasam",
+        "unit": "1 bowl (150g)",
+        "calories": 70
+      },
+      {
+        "name": "Kadhi",
+        "unit": "1 bowl (150g)",
+        "calories": 150
+      }
+    ]
+  }
